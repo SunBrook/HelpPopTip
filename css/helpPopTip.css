@@ -1,0 +1,88 @@
+#help_wrapper * {
+    padding: 0;
+    margin: 0;
+}
+
+#help_wrapper ol{
+    list-style:decimal;
+}
+
+#help_wrapper {
+    float: right;
+}
+
+#tip_link {
+    float: right;
+    cursor: pointer;
+    color: #CCCCCC;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #CCCCCC;
+    border-radius: 50%;
+}
+
+#tip_link:hover {
+    color: #00C0EF;
+    border-color: #00C0EF;
+}
+
+#pop_tip {
+    width: 530px;
+    min-height: 25px;
+    position: absolute;
+    right: 35px;
+    opacity: 0;
+    display: none;
+    z-index: 9999;
+}
+
+#pop_tip_content {
+    width: 500px;
+    min-height: 25px;
+    height: auto;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+    line-height: 24px;
+    background-color: #00C0EF;
+    color: #ffffff;
+    letter-spacing: 1.3px;
+}
+
+#pop_tip .pop_tip_arrow {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 10px solid #00C0EF;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    right: 0;
+    top: 7px;
+}
+
+#pop_tip_content ol {
+    margin: 0 20px;
+    width: 480px;
+}
+
+#pop_tip_content ol li {
+    width: 460px;
+}
+
+#pop_tip_content strong {
+    color: blue;
+}
+
+#pop_transparent_mask {
+    width: 500px;
+    min-height: 25px;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

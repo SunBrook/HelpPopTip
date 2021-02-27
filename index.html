@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>气泡弹出对话框</title>
+    <link rel="stylesheet" href="css/helpPopTip.css">
+    <script src="js/helpPopTip.js"></script>
+</head>
+
+<body>
+<div id="help_wrapper"></div>
+</body>
+</html>
+
+<script type="text/javascript">
+    //提示内容列表
+    var tip_array = [
+        "提示1：<strong>善良</strong>很重要",
+        "提示2：接下来，<strong>坚持</strong>很重要",
+        "提示3：<strong>Long may the sun shine</strong>"
+    ];
+
+    //初始化消息提示框
+    initHelpPopTip(tip_array);
+</script>
